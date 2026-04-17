@@ -245,4 +245,3 @@ else:
         display_df = jobs_df[["title", "company", "location", "role_type", "industry", "experience_level", "required_skills"]]
         st.dataframe(display_df, use_container_width=True, hide_index=True)
 
-)
