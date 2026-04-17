@@ -245,14 +245,4 @@ else:
         display_df = jobs_df[["title", "company", "location", "role_type", "industry", "experience_level", "required_skills"]]
         st.dataframe(display_df, use_container_width=True, hide_index=True)
 
-st.markdown("---")
-st.markdown(
-    """
-**How AI was used during development**
-- Helped brainstorm the project structure
-- Helped draft the initial scoring logic
-- Helped refine the explanation text shown with recommendations
-
-The final ranking logic and feature design were reviewed and adjusted manually.
-"""
 )
